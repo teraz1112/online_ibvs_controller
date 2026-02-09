@@ -28,11 +28,11 @@ python isvs.py --scenario dino --target data/samples/target.png --mask data/samp
 
 設定ファイル利用:
 ```bash
-python isvs.py --config configs/default.yaml --target data/samples/target.png --mask data/samples/mask.png
+python isvs.py --config configs/default.yaml --target data/samples/DG/{DGtype}.png --mask data/samples/mask.png
 ```
 
 ## 5) データの置き場所（サンプル、取得方法）
-- 最小サンプル: `data/samples/target.png`, `data/samples/observed.png`, `data/samples/mask.png`
+- 最小サンプル: `data/samples/target.png`, `data/samples/DG/{DGtype}.png`, `data/samples/mask.png`
 - 出力: `--output-dir` 配下
   - `observed_frames/*.png`
   - `valdata.csv`
