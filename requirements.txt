@@ -1,0 +1,11 @@
+numpy
+pandas
+pillow
+torch
+transformers
+huggingface-hub
+opencv-contrib-python
+matplotlib
+pyyaml
+roslibpy
+pypylon

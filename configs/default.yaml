@@ -1,0 +1,28 @@
+run:
+  scenario: dino
+  target: data/samples/target.png
+  mask: data/samples/mask.png
+  observed: data/samples/observed.png
+  output_dir: outputs/demo
+  use_camera: false
+  max_iter: 3
+  topn_match: 128
+  fix_depth: 0.2
+  calib_w: 1500
+  calib_h: 1500
+  fx_calib: 1500.0
+  fy_calib: 1500.0
+  cx_calib: 750.0
+  cy_calib: 750.0
+  converge_epx: 40.0
+  converge_frames: 2
+  deadband_eps: 1.0e-6
+  v_max: [0.02, 0.02, 0.02]
+  w_max: [0.10, 0.10, 0.10]
+  ros_enabled: false
+  ros_host: 127.0.0.1
+  ros_port: 9090
+  ros_topic: /torobo/delta_cmd
+  fps: 10
+  write_video: true
+  use_dummy_extractor: false
